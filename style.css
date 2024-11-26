@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --azul: #2491d0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    /* border: 1px dotted red; */
+}
+
+body {
+    width: 100vw;
+}
+
+/* HEADER // NAV */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header #header-content {
+    max-width: 900px;
+    display: flex;
+
+}
+
+header #header-content .div-1, header #header-content .div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+header #header-content .div-2 h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: var(--azul);
+}
+
+header #header-content .div-2 p {
+    font-size: 1.2em;
+
+}
