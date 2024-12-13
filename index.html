@@ -1,32 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcelo Mattos Pinturas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <header>
-        <div id="header-content">
-            <div class="div-1">
-                <img src="img/_logo-marcelo (1).png" alt="">
+        <nav class="flex-center">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <img src="img/_logo-marcelo-nova.png" alt="Logotipo Marcelo Mattos Pinturas">
+                </div>
+                <div class="nav-itens">
+                    <ul>
+                        <a href="#sobre">
+                            <li>Sobre</li>
+                        </a>
+                        <a href="#depoimentos">
+                            <li>Depoimentos</li>
+                        </a>
+                        <a href="#contato">
+                            <li>Contato</li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-            <div class="div-2">
-                <h1>EXCELÊNCIA EM PINTURA</h1>
-                <p>Fazemos parceria com <strong>decoradores, arquitetos e imobiliárias.</strong></p>
+        </nav>
+        <div class="slider">
+            <div class="dark flex-center">
+                <div class="header-content">
+                    <h1>Exelência em pintura</h1>
+                    <p>Fazemos parcerias com decoradores, arquitetos e imobiliárias.</p>
+                </div>
             </div>
         </div>
     </header>
     <main>
-        <section id="sec1"></section>
-        <section id="sec2"></section>
-        <section id="sec3"></section>
-        <section id="sec4"></section>
+        <section id="sec1">
+            <div class="sec-content" id="sobre">
+                <div class="bloco">
+                    <div class="texto">
+                        <h1>Sobre Nós</h1>
+                        <p>Com mais de 15 anos de experiência no mercado de pintura, incluindo 8 anos de atuação internacional, utilizamos as melhores técnicas e equipamentos para oferecer excelência. Somos referência em pintura de apartamentos, casas, interiores e exteriores, com especialização em texturas.</p>
+                    </div>
+                </div>
+                <div class="bloco">
+                    <img src="img/_logo-marcelo.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="sec2">
+            <div class="sec-content">
+                <div class="depoimentos" id="depoimentos">
+                    <div class="depoimento">
+                        <p class="quote">"Além de um excelente profissional, atencioso e competente, o Marcelo é uma pessoa de total confiança. Já o contratei por duas vezes. Super recomendo!"</p>
+                        <p class="autor">Fábio Kuchkarian</p>
+                    </div>
+                    <div class="titulo">
+                        <img src="img/quote-icon.png" alt="ícone depoimento">
+                        <h1>Depoimentos</h1>
+                    </div>
+                    <div class="depoimento">
+                        <p class="quote">"Marcelo é ótimo! Faz um excelente trabalho, muito rápido com qualidade, preço justo e muito gente boa. Super recomendo!"</p>
+                        <p class="autor">Nicole Crespo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec3">
+            <form id="contato">
+                <div class="titulo">
+                    <h1>Contato por <span class="azul">e-mail</span></h1>
+                </div>
+                <input type="email" id="email" autocomplete="off" placeholder="Seu e-mail aqui...">
+                <input type="text" id="email" autocomplete="off" placeholder="Assunto do e-mail...">
+                <textarea id="textp" placeholder="Texto do e-mail..."></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            <div class="whats">
+                <div>
+                    <img src="img/whats-icon.png" alt="ícone">
+                    <h1>Contato por Whatsapp</h1>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <p>Marcelo Mattos Pinturas &#169;</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
