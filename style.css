@@ -64,6 +64,10 @@ nav div.nav-content {
     padding: 10px;
 }
 
+#img-mob {
+   display: none;
+}
+
 .nav-itens ul {
     text-decoration: none;
     list-style: none;
@@ -371,6 +375,16 @@ nav div.nav-content {
    .header-content p {
       color: white;
       font-weight: 300;
+   }
+
+   #logo {
+      display: none;
+   }
+
+   #img-mob {
+      display: flex;
+      width: auto;
+      height: 70px;
    }
 
    .whats {
