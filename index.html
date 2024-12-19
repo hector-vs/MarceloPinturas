@@ -6,10 +6,6 @@
     <title>Marcelo Mattos Pinturas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
 </head>
 <body>
     <header>
@@ -37,8 +33,8 @@
         <div class="slider">
             <div class="dark flex-center">
                 <div class="header-content">
-                    <h1>Exelência em pintura</h1>
-                    <p>Fazemos parcerias com decoradores, arquitetos e imobiliárias.</p>
+                    <h1 id="rotating-text">Exelência em pintura</h1>
+                    <p id="rotating-paragraph">Fazemos parcerias com decoradores, arquitetos e imobiliárias.</p>
                 </div>
             </div>
         </div>
@@ -76,13 +72,14 @@
             </div>
         </section>
         <section id="sec3">
-            <form id="contato">
+            <form id="contato" action="https://formsubmit.co/marcelomattospinturas@gmail.com" method="POST">
                 <div class="titulo">
                     <h1>Contato por <span class="azul">e-mail</span></h1>
                 </div>
-                <input type="email" id="email" autocomplete="off" placeholder="Seu e-mail aqui...">
-                <input type="text" id="email" autocomplete="off" placeholder="Assunto do e-mail...">
-                <textarea id="textp" placeholder="Texto do e-mail..."></textarea>
+                <input type="email" id="email" name="email" autocomplete="off" placeholder="Seu e-mail aqui...">
+                <input type="text" id="email" name="_subject" autocomplete="off" placeholder="Assunto do e-mail...">
+                <textarea id="textp" name="message" placeholder="Texto do e-mail..."></textarea>
+                <!-- <input type="hidden" name="_next" value="obrigado.html"> -->
                 <input type="submit" value="Enviar">
             </form>
             <div class="whats">
@@ -96,7 +93,6 @@
     <footer>
         <p>Marcelo Mattos Pinturas &#169;</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
