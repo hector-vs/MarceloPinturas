@@ -15,6 +15,10 @@ const phrases = [
 { 
     h1: "VALORIZE O SEU IMÓVEL", 
     p: "contratando nossos serviços de pintura." 
+},
+{ 
+    h1: "FORMAS DE PAGAMENTO VARIADAS", 
+    p: "aceitamos cartões de crédito!" 
 }
 ];
 
